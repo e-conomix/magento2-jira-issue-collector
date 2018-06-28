@@ -13,8 +13,8 @@
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
                 <field id="url" translate="label comment" type="textarea" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Embeded JS URL</label>
-                    <comment>Should start with "<![CDATA[http://]]>" or "<![CDATA[https://]]>" and point to "<![CDATA[<code>issuecollector-embededjs.js</code>]]>".</comment>
+                    <label>Embeded JavaScript URL</label>
+                    <comment><![CDATA[Should start with <code>http://</code> or <code>https://</code> and point to <code>issuecollector-embededjs.js</code>]]></comment>
                 </field>
             </group>
         </section>

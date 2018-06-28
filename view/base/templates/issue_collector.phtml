@@ -1,0 +1,15 @@
+<?php /** @var \CyberDuck\JiraIssueCollector\Block\IssueCollector $block */ ?>
+<script type="text/javascript">
+    require.config({
+        deps: ['jquery'],
+        callback: function ($) {
+            'use strict';
+            $.ajax({
+                url: "<?= $block->getEmbededjsUrl() ?>",
+                type: "get",
+                cache: true,
+                dataType: "script"
+            });
+        }
+    });
+</script>

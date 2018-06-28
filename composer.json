@@ -1,12 +1,21 @@
 {
     "name": "cyber-duck/magento2-jira-issue-collector",
     "description": "Implementation of JIRA Issue Collector for Magento 2",
+    "keywords": [
+        "composer-installer",
+        "magento",
+        "Issue",
+        "Collector",
+        "Magento 2",
+        "JIRA",
+        "CyberDuck"
+    ],
     "type": "magento2-module",
     "version": "0.0.1",
     "license": "MIT",
     "require": {
         "php": ">=7.0",
-        "magento/framework": "2.2.*"
+        "magento/framework": "^100.1.0|^101.0.0"
     },
     "authors": [
         {
@@ -17,7 +26,11 @@
         }
     ],
     "autoload": {
-        "psr-4": { "CyberDuck\\JiraIssueCollector\\": "" },
-        "files": [ "registration.php" ]
+        "psr-4": {
+            "CyberDuck\\JiraIssueCollector\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
     }
 }
